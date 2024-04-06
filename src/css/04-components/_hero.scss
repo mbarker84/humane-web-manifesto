@@ -1,0 +1,91 @@
+.c-hero {
+  min-height: 100vh;
+  text-align: center;
+  background: repeating-radial-gradient(
+      circle at 50% 100%,
+      transparent 2rem,
+      var(--bgXDark) 2rem,
+      var(--bgXDark) 2.35rem,
+      transparent 0,
+      transparent 4rem
+    ),
+    radial-gradient(circle at 50% 50%, var(--bgXDark), transparent),
+    var(--bgDark);
+  background-size:
+    6.6rem 6.6rem,
+    100% 100%;
+  background-repeat: repeat;
+  background-position: center;
+  color: var(--white);
+  padding: 4rem 0 5rem;
+  display: flex;
+  align-items: center;
+
+  @media (min-width: $md) {
+    padding: 10rem 0;
+  }
+}
+
+.c-hero__heading {
+  color: var(--accent);
+
+  @media (min-width: $lg) {
+    font-size: 6rem;
+  }
+}
+
+.c-hero__version {
+  color: var(--accent);
+  text-align: center;
+}
+
+.c-hero__desc {
+  max-width: 50ch;
+  margin: 0 auto;
+
+  @media (min-width: $md) {
+    font-size: 1.4rem;
+  }
+}
+
+.c-hero__link-wrapper {
+  max-width: 20rem;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+
+  @media (min-width: $md) {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.c-hero__link {
+  color: var(--accent);
+  margin-top: var(--space-s);
+
+  &:hover,
+  &:focus {
+    color: var(--lightGrey);
+  }
+}
+
+.c-hero__link--github {
+  display: inline-flex;
+  align-items: center;
+  font-size: 80%;
+  color: var(--lightGrey);
+
+  &:hover,
+  &:focus {
+    color: var(--white);
+  }
+
+  svg {
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-left: 0.5rem;
+  }
+}

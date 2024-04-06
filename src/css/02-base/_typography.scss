@@ -1,0 +1,49 @@
+body {
+  font-family: 'Mukta', sans-serif;
+  font-size: var(--step-0);
+}
+
+h1,
+h2,
+h3,
+h4 {
+  line-height: 1.2;
+  font-weight: 700;
+  margin-block: 0;
+}
+
+h1 {
+  font-size: var(--step-6);
+  letter-spacing: -0.03em;
+}
+
+h2 {
+  font-size: var(--step-4);
+}
+
+h3 {
+  font-size: var(--step-3);
+}
+
+h3 {
+  font-size: var(--step-2);
+}
+
+p {
+  line-height: 1.55;
+}
+
+a {
+  color: inherit;
+  transition:
+    text-underline-offset 150ms,
+    color 150ms;
+  text-decoration-thickness: 0.1em;
+  text-underline-offset: 0.1em;
+
+  &:hover,
+  &:focus {
+    color: var(--accent);
+    text-underline-offset: 0.3em;
+  }
+}

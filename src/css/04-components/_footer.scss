@@ -1,0 +1,9 @@
+.c-footer {
+  padding: 1rem;
+  color: var(--lightGrey);
+  background-color: var(--bgDark);
+
+  @media (min-width: $md) {
+    padding: 1rem 2rem;
+  }
+}

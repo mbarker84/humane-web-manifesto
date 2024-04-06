@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+  {% if version.css | length == 0 %}
+    {% set CssVersion = '' %}
+  {% else %}
+    {% set CssVersion = version.css %}
+  {% endif %}
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+    <title>{{ metadata.title }}</title>
+    <meta name="Description" content="{{ metadata.description }}">
+    <link rel="stylesheet" href="/css/styles{{ CssVersion }}.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mukta:wght@400;700&display=swap" rel="stylesheet">
+    <meta property="og:title" content="{{ metadata.title }}"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:description" content="{{ metadata.description }}"/>
+    <meta property="og:image" content="{{ metadata.url }}{{ metadata.img }}"/>
+    <meta property="og:url" content="{{ metadata.url }}"/>
+    <meta property="og:site_name" content="{{ metadata.title }}"/>
+    <meta name="twitter:card" content="summary_large_image"/>
+  </head>
+
+  <body>
+    {% if page.url == '/' %}
+      {% set showHomeLink = false %}
+    {% else %}
+      {% set showHomeLink = true %}
+    {% endif %}
+
+    {% include "./partials/header.njk" %}
+
+    {% block content %}{% endblock %}
+
+    {% include "./partials/footer.njk" %}
+    <!--JS-->
+    {% if version.js | length == 0 %}
+      {% set JsVersion = '' %}
+    {% else %}
+      {% set JsVersion = version.js %}
+    {% endif %}
+    <script type="module" src="/js/index{{ JsVersion }}.js"></script>
+  </body>
+</html>
