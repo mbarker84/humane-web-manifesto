@@ -26,15 +26,9 @@
   </head>
 
   <body>
-    {% if page.url == '/' %}
-      {% set showHomeLink = false %}
-    {% else %}
-      {% set showHomeLink = true %}
-    {% endif %}
-
-    {% include "./partials/header.njk" %}
-
-    {% block content %}{% endblock %}
+    <main>
+      {% block content %}{% endblock %}
+    </main>
 
     {% include "./partials/footer.njk" %}
     <!--JS-->

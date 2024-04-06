@@ -1,4 +1,4 @@
 ---
 layout: home.njk
-pageTitle: "Eleventy-Parcel"
+pageTitle: "A Humane Web Manifesto"
 ---
