@@ -1,6 +1,6 @@
 body {
-  background-color: var(--white);
-  color: var(--bgDark);
+  background-color: var(--bg);
+  color: var(--textColor);
   display: flex;
   flex-direction: column;
   min-height: 100vh;
@@ -10,17 +10,17 @@ body {
 
 main {
   flex-grow: 1;
-  padding-block: var(--step-2);
+  padding-block: var(--step-4);
 }
 
 .container {
   max-width: 60rem;
   margin: 0 auto;
-  padding: 0 1rem;
+  padding: 0 var(--space-s-l);
+}
 
-  @media (min-width: $md) {
-    padding: 0 2rem;
-  }
+.container--xl {
+  max-width: 100%;
 }
 
 .page-content {

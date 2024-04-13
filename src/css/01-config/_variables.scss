@@ -6,11 +6,15 @@ $lg: 70em;
 
 :root {
   /* Colors */
+  --bg: #fc7ea4;
+  --textColor: #181531;
   --accent: deeppink;
   --white: #f7f7f7;
   --lightGrey: #cdced1;
-  --bgDark: #050959;
+  --bgDark: #1d1e23;
   --bgXDark: color-mix(in srgb, var(--bgDark) 80%, black);
+
+  --fontBody: 'Syne', sans-serif;
 
   /* @link https://utopia.fyi/type/calculator?c=320,16,1.2,1400,22,1.25,6,2,&s=0.75|0.5|0.25,1.5|2|3|4|6,s-l&g=s,l,xl,12 */
 

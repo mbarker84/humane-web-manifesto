@@ -1,4 +1,6 @@
 .o-richtext {
+  max-width: 75ch;
+
   * + * {
     margin-top: var(--space-s);
   }

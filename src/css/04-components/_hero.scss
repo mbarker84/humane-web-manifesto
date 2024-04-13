@@ -1,0 +1,17 @@
+.c-hero {
+  margin-bottom: var(--space-l);
+}
+
+.c-hero__content {
+  position: relative;
+  padding-bottom: var(--space-l);
+
+  &::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: max(5rem, 25vi);
+    border-top: 0.3rem solid;
+  }
+}

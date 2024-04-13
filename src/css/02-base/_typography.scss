@@ -1,6 +1,11 @@
+html {
+  font-size: 120%;
+}
+
 body {
-  font-family: 'Mukta', sans-serif;
+  font-family: var(--fontBody);
   font-size: var(--step-0);
+  font-style: normal;
 }
 
 h1,
@@ -46,4 +51,9 @@ a {
     color: var(--accent);
     text-underline-offset: 0.3em;
   }
+}
+
+.heading-xl {
+  font-size: max(2.986rem, 1rem + 10vi);
+  line-height: 1.125;
 }
