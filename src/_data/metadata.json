@@ -1,12 +1,12 @@
 {
-  "title": "Eleventy-Parcel",
-  "url": "https://eleventy-parcel.netlify.app/",
-  "description": "A basic Eleventy (11ty) starter project with Parcel JS",
-  "version": "2.2.0",
+  "title": "Manifesto for a Humane Web",
+  "url": "https://humanewebmanifesto.com/",
+  "description": "",
+  "version": "0.0.1",
   "author": {
     "name": "Michelle Barker",
     "email": "contact@michellebarker.co.uk"
   },
   "img": "og-image-02.jpg",
-  "githubUrl": "https://github.com/mbarker84/eleventy-parcel"
+  "githubUrl": "https://github.com/mbarker84/humane-web-manifesto"
 }

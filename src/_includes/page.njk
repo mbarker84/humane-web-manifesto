@@ -1,10 +1,8 @@
 {% extends "./layout.njk" %}
 
 {% block content %}
-  <div class="page-content">
-    <div class="container o-richtext">
-      <h1>{{ pageTitle }}</h1>
-      {{ content | safe }}
-    </div>
+  <div class="container o-richtext">
+    <h1>{{ title }}</h1>
+    {{ content | safe }}
   </div>
 {% endblock %}

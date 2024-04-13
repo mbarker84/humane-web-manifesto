@@ -1,5 +1,5 @@
 .o-richtext {
-  max-width: 75ch;
+  max-width: 60ch;
 
   * + * {
     margin-top: var(--space-s);
@@ -19,6 +19,15 @@
     margin-top: var(--space-xs);
   }
 
+  h2,
+  h3 {
+    border-bottom: 0.3rem solid;
+    padding-left: var(--space-s-l);
+    padding-bottom: 0.2em;
+    margin-left: calc(var(--space-s-l) * -1);
+    width: fit-content;
+  }
+
   h2 + h3 {
     margin-top: var(--space-m);
   }
@@ -31,7 +40,7 @@
 
   code,
   pre {
-    background-color: color-mix(in srgb, var(--bgDark) 10%, white);
+    background-color: color-mix(in oklch, black 6%, var(--bg));
     border-radius: 0.25rem;
     font-size: 1rem;
   }

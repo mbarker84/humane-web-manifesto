@@ -1,6 +1,6 @@
 ---
 layout: home.njk
-pageTitle: 'Manifesto for a Humane Web'
+title: 'Manifesto for a Humane Web'
 ---
 
 ## The manifesto

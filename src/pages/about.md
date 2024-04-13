@@ -1,5 +1,6 @@
 ---
-pageTitle: 'About'
+layout: home.njk
+title: 'About'
 ---
 
 A basic [Eleventy (11ty)](https://www.11ty.dev/) starter project with [Parcel JS](https://parceljs.org/).
