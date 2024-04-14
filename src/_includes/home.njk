@@ -12,10 +12,17 @@
     </div>
     {% endif %}
 
-    <div class="container">
-      <div class="o-richtext">
-        {{ content | safe }}
+    <div class="container container--xl">
+      <div class="intro">
+        <div class="o-richtext">
+          {{ content | safe }}
+        </div>
       </div>
     </div>
+
+    {% for section in collections.section %}
+      {% include "./partials/section.njk" %}
+    {% endfor %}
+    
   </article>
 {% endblock %}

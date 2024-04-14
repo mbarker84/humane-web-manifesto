@@ -48,6 +48,12 @@
   h1 {
     margin-bottom: var(--space-m);
     padding-bottom: var(--space-m);
-    border-bottom: 0.2rem solid;
+    border-bottom: 0.3rem solid;
+  }
+}
+
+.intro {
+  .o-richtext {
+    max-width: 70ch;
   }
 }

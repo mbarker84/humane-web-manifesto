@@ -1,3 +1,9 @@
+@media (prefers-reduced-animation: no-preference) {
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
 body {
   background-color: var(--bg);
   color: var(--textColor);
@@ -23,11 +29,12 @@ main {
   max-width: 100%;
 }
 
-.page-content {
-  padding: 6rem 0 2rem 0;
-  flex-grow: 1;
+section {
+  padding-block: var(--space-2xl);
+  scroll-margin-block-start: 3rem;
 
-  @media (min-width: $md) {
-    padding: 10rem 0;
+  &:nth-of-type(even) {
+    background-color: var(--textColor);
+    color: var(--bg);
   }
 }
