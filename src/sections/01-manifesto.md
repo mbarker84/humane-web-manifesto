@@ -22,19 +22,19 @@ Our websites should protect people’s privacy. They should respect data protect
 
 ### Sustainable
 
-Every care should be taken to minimise our websites’ environmental impact. They should be clean, efficient, and avoid encouraging waste.
+Every care should be taken to minimise our websites’ environmental impact. They should be clean, efficient, and avoid waste.
 
 ### Reliable
 
-Information provided on the web should be trustworthy.
+Information provided on the web should be trustworthy and accurate.
 
 ### Resilient
 
-Services should function in their time of need. Users should not be excluded from vital services due to technical limitations (e.g. low-powered devices, poor connections).
+Services should function in their time of need. Progressive enhancement is a cornerstone of a resilent web.
 
 ### Open and transparent
 
-The motivations and intent of a website should be made clear to users, and allow open exchange of information.
+The motivations, intent and ownership of a website should be made clear to users, and allow open exchange of information.
 
 ### Independent
 
@@ -42,4 +42,4 @@ No one “owns” the web. No single central authority decides who can publish o
 
 ### Human-centred
 
-Our websites should be designed by and for humans. They should be kind, collaborative, and foster connections, not isolation. A humane web should contribute to a better future.
+Our websites should be designed by and for humans. They should be kind, collaborative, and foster connections, not isolation. A humane web should unite us, not divide us. It should help us to build a better future.
