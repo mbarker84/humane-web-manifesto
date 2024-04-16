@@ -28,6 +28,19 @@
     width: fit-content;
   }
 
+  h2 {
+    position: relative;
+
+    &::after {
+      position: absolute;
+      top: 100%;
+      right: 0;
+      content: '';
+      width: 100vw;
+      border-bottom: 0.3rem solid;
+    }
+  }
+
   h2 + h3 {
     margin-top: var(--space-m);
   }

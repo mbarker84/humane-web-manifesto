@@ -1,8 +1,4 @@
-# Eleventy-Parcel
-
-## Commands
-
-Clone or download the project from the [Github repository](https://github.com/mbarker84/eleventy-parcel).
+# Manifesto for a Humane Web
 
 ## How to run
 
