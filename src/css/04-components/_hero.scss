@@ -1,5 +1,9 @@
 .c-hero {
   margin-bottom: var(--space-l);
+
+  @media (min-width: $lg) {
+    padding-block-start: var(--space-3xl);
+  }
 }
 
 .c-hero__content {
@@ -13,5 +17,21 @@
     left: calc(var(--space-s-l) * -1);
     width: max(5rem, 25vi);
     border-top: 0.3rem solid;
+
+    @media (min-width: $lg) {
+      left: calc(var(--space-xl) * -1);
+    }
+  }
+}
+
+.c-hero__svg {
+  max-width: max(45rem, 45%);
+  height: auto;
+
+  @media (min-width: $lg) {
+    position: absolute;
+    top: 2.85rem;
+    left: 0;
+    width: 100%;
   }
 }

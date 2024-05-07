@@ -10,6 +10,10 @@
     margin-top: var(--space-l);
   }
 
+  h2 + * {
+    margin-top: var(--space-l);
+  }
+
   ul {
     list-style-type: disc;
     margin-left: 2rem;

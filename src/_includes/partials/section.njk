@@ -3,6 +3,16 @@
     <div class="o-richtext">
       <h2>{{ section.data.title }}</h2>
 
+      {% if section.data.references %}
+        <ol>
+        {% for item in section.data.references %}
+          <li id="ref_{{ loop.index }}">
+            <a href="{{ item.url }}">{{ item.title }}</a>, {{ item.body }}
+          </li>
+        {% endfor %}
+        </ol>
+      {% endif %}
+
       {{ section.content | safe }}
     </div>
   </div>

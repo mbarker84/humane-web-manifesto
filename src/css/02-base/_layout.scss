@@ -16,13 +16,16 @@ body {
 
 main {
   flex-grow: 1;
-  padding-block: var(--step-4);
 }
 
 .container {
   max-width: 75rem;
   margin: 0 auto;
   padding: 0 var(--space-s-l);
+
+  @media (min-width: $lg) {
+    padding-inline: var(--space-xl);
+  }
 }
 
 .container--xl {
