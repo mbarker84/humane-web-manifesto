@@ -31,6 +31,10 @@
   <body>
     {% include "./partials/header.njk" %}
 
+    <svg class="c-hero__svg" width="960" height="407" xmlns="http://www.w3.org/2000/svg">
+      <use href="/sprite.svg#decoration-01" />
+    </svg>
+
     <main>
       {% block content %}{% endblock %}
     </main>
