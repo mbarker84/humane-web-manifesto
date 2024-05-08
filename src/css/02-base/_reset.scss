@@ -13,6 +13,16 @@ ul {
   padding: 0;
 }
 
+ol {
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+
+ol li::marker {
+  font-variant-numeric: lining-nums;
+}
+
 img {
   max-width: 100%;
   display: block;

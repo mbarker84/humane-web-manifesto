@@ -16,7 +16,11 @@
 
   ul {
     list-style-type: disc;
-    margin-left: 2rem;
+  }
+
+  ol,
+  ul {
+    padding-left: var(--space-s-l);
   }
 
   li + li {
