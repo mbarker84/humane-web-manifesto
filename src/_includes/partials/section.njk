@@ -1,4 +1,11 @@
 <section id="{{ section.page.fileSlug }}">
+
+  {% if section.data.title == "Further reading" %}
+    <svg class="decoration decoration--3" width="111" height="118" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg">
+      <use href="/sprite.svg#decoration-03" />
+    </svg>
+  {% endif %}
+
   <div class="container">
     <div class="o-richtext">
       <h2>{{ section.data.title }}</h2>
@@ -16,4 +23,10 @@
       {{ section.content | safe }}
     </div>
   </div>
+
+  {% if section.data.title == "Manifesto" %}
+    <svg class="decoration" width="523" height="257" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg">
+      <use href="/sprite.svg#decoration-02" />
+    </svg>
+  {% endif %}
 </section>

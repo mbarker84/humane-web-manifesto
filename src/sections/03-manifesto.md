@@ -22,7 +22,7 @@ Our websites should respect people’s privacy. They should respect data protect
 
 ### Sustainable
 
-Every care should be taken to minimise our websites’ environmental impact. They should be clean, efficient, and avoid encouraging digital and physical waste.
+Every care should be taken to minimise our websites’ environmental impact. They should be lean, clean, efficient, well-optimised, and avoid creating digital and physical waste.
 
 ### Reliable
 
@@ -32,9 +32,9 @@ Information provided on the web should be trustworthy and sourced appropriately.
 
 Our websites should be built with web standards, and utilise progressive enhancement. They should function across different devices, in different languages and under different environmental conditions.
 
-### Open and transparent
+### Transparent
 
-The motivations and intent of a website should be made clear to users. It should be easy to find out who owns and funds a website.
+The motivations and intent of a website should be made clear to the people using it. It should be easy to find out who owns, funds, and creates content for a website.
 
 ### Independent
 

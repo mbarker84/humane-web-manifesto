@@ -67,10 +67,46 @@
     padding-bottom: var(--space-m);
     border-bottom: 0.3rem solid;
   }
+
+  sup {
+    line-height: 1;
+    font-variant-numeric: lining-nums;
+
+    &::before {
+      content: '[';
+    }
+
+    &::after {
+      content: ']';
+    }
+  }
 }
 
 .intro {
   .o-richtext {
     max-width: 70ch;
+  }
+}
+
+@supports (animation-timeline: view()) {
+  @media (prefers-reduced-motion: no-preference) {
+    .o-richtext > * {
+      view-timeline-name: --appear;
+      view-timeline-axis: block;
+      animation: auto ease fadeIn both;
+      animation-timeline: view();
+      animation-range: entry-crossing 20px entry-crossing 200px;
+    }
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translate3d(0, 2rem, 0);
+  }
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
   }
 }

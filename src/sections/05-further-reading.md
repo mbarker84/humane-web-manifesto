@@ -12,6 +12,7 @@ title: Further reading
 - [Generative](https://ethanmarcotte.com/wrote/generative/) by Ethan Marcotte
 - [The Expanding Dark Forest and Generative AI](https://maggieappleton.com/ai-dark-forest) by Maggie Appleton
 - [Are We Watching the Internet Die?](https://www.wheresyoured.at/are-we-watching-the-internet-die/) by Ed Zitron
-- [The internet isn't dying, it's changing](https://coryd.dev/posts/2024/the-internet-isnt-dying-its-changing/)
+- [The internet isn't dying, it's changing](https://coryd.dev/posts/2024/the-internet-isnt-dying-its-changing/) by Cory Dransfeldt
 - [The Intelligence Illusion](https://illusion.baldurbjarnason.com/) book by Baldur Bjarnason
 - [If we love the web, we have to protect the web](https://webwewant.org/news/love-web-protect-web/)
+- [Ministry of Imagination Manifesto](https://www.robhopkins.net/2024/04/15/ministry-of-imagination-manifesto-released-as-the-world-goes-to-the-polls/)
