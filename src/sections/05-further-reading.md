@@ -18,3 +18,4 @@ This manifesto was born from ideas formed while writing a piece for _Branch_, [T
 - [The Intelligence Illusion](https://illusion.baldurbjarnason.com/) book by Baldur Bjarnason
 - [If we love the web, we have to protect the web](https://webwewant.org/news/love-web-protect-web/)
 - [Ministry of Imagination Manifesto](https://www.robhopkins.net/2024/04/15/ministry-of-imagination-manifesto-released-as-the-world-goes-to-the-polls/)
+- [Small Technology Foundation](https://small-tech.org/about/)
