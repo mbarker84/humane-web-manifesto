@@ -7,11 +7,11 @@ A humane web should be:
 
 ### Accessible
 
-Our websites should meet people where they are. They should be accessible to all, regardless of race, gender, age, ability, or economic status.
+Our websites should meet people where they are. They should be accessible to people with disabilities, and take into account the many different ways people might access the web. They should be empowering and equitable, not provide additional barriers.
 
 ### Inclusive
 
-Our websites should not discriminate against groups of users, and gatekeeping should be avoided.
+Our websites should not discriminate against based on race, gender, age, orientation, ability, class or economic status. Gatekeeping should be avoided.
 
 ### Safe
 
