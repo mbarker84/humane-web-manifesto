@@ -35,7 +35,7 @@ Our websites should be built with web standards, and utilise progressive enhance
 
 ### Transparent
 
-The motivations and intent of a website should be made clear to the people using it. It should be easy to find out who owns, funds, and creates content for a website.
+The motivations and intent of a website should be made clear to the people using it. It should be easy to find out who owns, funds, and creates content for a website, when that information is in the public interest.
 
 ### Independent
 
