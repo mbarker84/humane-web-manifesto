@@ -14,7 +14,7 @@
         <ol>
         {% for item in section.data.references %}
           <li id="ref_{{ loop.index }}">
-            <a href="{{ item.url }}">{{ item.title }}</a>, {{ item.body }}
+            <cite><a href="{{ item.url }}">{{ item.title }}</a></cite>, {{ item.body }}
           </li>
         {% endfor %}
         </ol>
@@ -22,6 +22,10 @@
 
       {{ section.content | safe }}
     </div>
+
+    {% if section.data.lastEdited %}
+      <p class="last-edited small">Last edited <time datetime="{{ section.data.lastEdited }}">{{ section.data.lastEdited }}</time></p>
+    {% endif %}
   </div>
 
   {% if section.data.title == "Manifesto" %}

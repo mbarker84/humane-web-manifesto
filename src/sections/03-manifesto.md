@@ -1,5 +1,6 @@
 ---
 title: Manifesto
+lastEdited: '2024-05-13'
 ---
 
 A humane web should be:

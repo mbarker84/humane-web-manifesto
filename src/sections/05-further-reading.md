@@ -1,5 +1,6 @@
 ---
 title: Further reading
+lastEdited: '2024-05-13'
 ---
 
 This manifesto was born from ideas formed while writing a piece for _Branch_, [The Perfect Site Doesn’t Exist](https://branch.climateaction.tech/issues/issue-8/the-perfect-site-doesnt-exist/). It was influenced by the writings of people far cleverer than me, who have been thinking and writing eloquently on the past, present and future of the web for far longer. Here are just a few of them.

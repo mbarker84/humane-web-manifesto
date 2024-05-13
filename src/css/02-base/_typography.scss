@@ -42,6 +42,10 @@ small {
   font-size: 0.9rem;
 }
 
+cite {
+  font-style: normal;
+}
+
 a {
   color: inherit;
   transition:
@@ -68,4 +72,10 @@ a {
 .intro {
   font-size: var(--step-1);
   font-weight: 520;
+}
+
+.last-edited {
+  font-variant-numeric: lining-nums;
+  font-size: var(--step--1);
+  margin-top: var(--space-xl);
 }
