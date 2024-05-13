@@ -23,3 +23,4 @@ This manifesto was born from ideas formed while writing a piece for _Branch_, [T
 - [The Calm Web](https://calibreapp.com/blog/calm-web) by Karolina Szczur (Calibre)
 - [What we mean when we talk about accessibility](https://accessibility.blog.gov.uk/2016/05/16/what-we-mean-when-we-talk-about-accessibility-2/) by Alistair Duggin (Gov.uk)
 - [Web Content Accessibility Guidelines](https://www.w3.org/WAI/standards-guidelines/wcag/)
+- [The Real World of Technology](https://aworkinglibrary.com/reading/real-world-of-technology) by Ursula M. Franklin
