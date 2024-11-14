@@ -10,6 +10,7 @@ This manifesto was born from ideas formed while writing a piece for _Branch_, [T
 - [Sustainable Web Manifesto](https://www.sustainablewebmanifesto.com/)
 - [Web Sustainability Guidelines](https://w3c.github.io/sustyweb)
 - [Ethical Web Principles](https://www.w3.org/TR/ethical-web-principles/) (W3C)
+- [Sustainable Web Interest Group](https://www.w3.org/groups/ig/sustainableweb/) (W3C)
 - [Web Content Accessibility Guidelines](https://www.w3.org/WAI/standards-guidelines/wcag/)
 - [Resilient Web Design](https://resilientwebdesign.com) by Jeremy Keith
 - [Humane by Design](https://humanebydesign.com)
