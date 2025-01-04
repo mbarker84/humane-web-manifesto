@@ -61,7 +61,7 @@ a {
 }
 
 .heading-xl {
-  font-size: max(2.986rem, 1rem + 10vi);
+  font-size: clamp(3rem, 10vi + 0.1rem, 10rem);
   line-height: 1.1;
 }
 

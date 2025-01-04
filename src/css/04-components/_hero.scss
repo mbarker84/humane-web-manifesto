@@ -25,13 +25,12 @@
 }
 
 .c-hero__svg {
-  max-width: max(45rem, 45%);
+  width: calc(var(--space-l) * 17);
   height: auto;
 
   @media (min-width: $lg) {
     position: absolute;
     top: 2.85rem;
     left: 0;
-    width: 100%;
   }
 }
